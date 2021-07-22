@@ -9,8 +9,7 @@
     <link href='https://unpkg.com/boxicons@2.0.8/css/boxicons.min.css' rel='stylesheet'>
     <style>
         body {
-            overflow-x: hidden;
-            overflow-y: hidden;
+            overflow: hidden;
         }
         
         i {
@@ -25,17 +24,20 @@
             height: 56px;
         }
         
-        div.col-3 img {
+        div.col-2 img {
             position: relative;
             left: 14px;
-            height: 54px;
-            width: 54px;
-            border-radius: 27px;
+            height: 40px;
+            width: 40px;
+            border-radius: 20px;
         }
         
-        div.col-3 i {
-            float: left;
-            font-size: 54px;
+        div.col-2 img {
+            position: relative;
+            left: 14px;
+            height: 40px;
+            width: 40px;
+            border-radius: 20px;
         }
         
         input {
@@ -57,7 +59,22 @@
             color: rgb(77, 77, 73);
         }
         
-        div.col-9 p {
+        div.col-10 h3 {
+            font-size: 20px;
+        }
+        
+        div.col-10 p {
+            font-size: 11px;
+            overflow-x: hidden;
+            white-space: nowrap;
+        }
+        
+        div.col-10 h3 {
+            font-size: 20px;
+        }
+        
+        div.col-10 p {
+            font-size: 11px;
             overflow-x: hidden;
             white-space: nowrap;
         }
@@ -96,102 +113,92 @@
                         <input type="text" placeholder="&#x1F50D; Search or start new chat">
                     </div>
                 </div>
-                <div style="overflow-y: scroll; overflow-x: hidden; word-wrap: none;">
+                <div style="overflow-y: scroll; overflow-x: hidden; word-wrap: none; height: 100vh;">
                     <div class="row py-3" style="background-color: white; padding-right: 8px; max-height: max-content;">
-                        <div class="col-3">
+                        <div class="col-2">
                             <img src="images/valhalla.jpg">
                         </div>
-                        <div class="col-9">
+                        <div class="col-10">
                             <h3>Valhalla</h3>
                             <p>The final resting place of warriors praised by Odin himself </p>
                             <hr>
                         </div>
-                    </div>
-                    <div class="row" style="background-color: white; padding-right: 8px; max-height: max-content;">
-                        <div class="col-3">
+                        <div class="col-2">
                             <img src="images/asgard.jpg">
                         </div>
-                        <div class="col-9">
+                        <div class="col-10">
                             <h3>Asgard</h3>
                             <p>The realm of the superior gods</p>
                             <hr>
                         </div>
-                    </div>
-                    <div class="row" style="background-color: white; padding-right: 8px; max-height: max-content;">
-                        <div class="col-3">
+
+                        <div class="col-2">
                             <img src="images/migard.jpg">
                         </div>
-                        <div class="col-9">
+                        <div class="col-10">
                             <h3>Midgard</h3>
                             <p>A.k.a Earth surrounded by the serpent so large it bites it's own tail</p>
                             <hr>
                         </div>
-                    </div>
-                    <div class="row" style="background-color: white; padding-right: 8px; max-height: max-content;">
-                        <div class="col-3">
+
+                        <div class="col-2">
                             <img src="images/joutenh.jpg">
                         </div>
-                        <div class="col-9">
+                        <div class="col-10">
                             <h3>Joutenheim</h3>
                             <p>The land of the giants</p>
                             <hr>
                         </div>
-                    </div>
-                    <div class="row" style="background-color: white; padding-right: 8px; max-height: max-content;">
-                        <div class="col-3">
+
+                        <div class="col-2">
                             <img src="images/hel.jpg">
                         </div>
-                        <div class="col-9">
+                        <div class="col-10">
                             <h3>Helhiem</h3>
                             <p>The land where corrupted souls go to wither</p>
                             <hr>
                         </div>
-                    </div>
-                    <div class="row" style="background-color: white; padding-right: 8px; max-height: max-content;">
-                        <div class="col-3">
+
+                        <div class="col-2">
                             <img src="images/nida.jpg">
                         </div>
-                        <div class="col-9">
+                        <div class="col-10">
                             <h3>Nidavellir</h3>
                             <p>The land of dwarves which temper iron</p>
                             <hr>
                         </div>
-                    </div>
-                    <div class="row" style="background-color: white; padding-right: 8px; max-height: max-content;">
-                        <div class="col-3">
+
+                        <div class="col-2">
                             <img src="images/musphelheim.jpg">
                         </div>
-                        <div class="col-9">
+                        <div class="col-10">
                             <h3>Muspelheim</h3>
                             <p>The land of fire and brimstone. Lava flows endlessly here.</p>
                             <hr>
                         </div>
-                    </div>
-                    <div class="row" style="background-color: white; padding-right: 8px; max-height: max-content;">
-                        <div class="col-3">
+
+                        <div class="col-2">
                             <img src="images/Alf.jpg">
                         </div>
-                        <div class="col-9">
+                        <div class="col-10">
                             <h3>Alfheim</h3>
                             <p>The land of the elves divided between the light and dark</p>
                             <hr>
                         </div>
-                    </div>
-                    <div class="row" style="background-color: white; padding-right: 8px; max-height: max-content;">
-                        <div class="col-3">
+
+                        <div class="col-2">
                             <img src="images/nif.jpg">
                         </div>
-                        <div class="col-9">
+                        <div class="col-10">
                             <h3>Niflheim</h3>
                             <p>The land of mist</p>
                             <hr>
                         </div>
-                    </div>
-                    <div class="row" style="background-color: white; padding-right: 8px; max-height: max-content;">
-                        <div class="col-3">
+
+                        <div class="col-2">
                             <img src="images/Vanheim.jpg">
                         </div>
-                        <div class="col-9">
+                        <div class="col-10">
                             <h3>Vanaheim</h3>
                             <p>The realm of nature(lesser) gods</p>
                             <hr>
